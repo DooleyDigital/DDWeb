@@ -29,9 +29,9 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
-import website3d from "../Assets/webreport.png";
-import PaintB from "../Assets/paintBucket.png";
-import coffee from "../Assets/coffee.png";
+import website3d from "../public/webreport.png";
+import PaintB from "../public/paintBucket.png";
+import coffee from "../public/coffee.png";
 import DDLogo from "../public/DDLogo.png";
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
