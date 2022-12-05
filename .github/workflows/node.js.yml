@@ -28,8 +28,8 @@ jobs:
         cache:
           key: ${CI_COMMIT_REF_SLUG}
           paths:
-            - node_modules/
-            - .next/cache/
+    - node_modules/
+    - .next/cache/
     - run: npm ci
     - run: npm run build
     - run: npm run export
