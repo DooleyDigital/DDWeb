@@ -30,7 +30,6 @@ import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import website3d from "../public/webreport.png";
-import PaintB from "../public/paintBucket.png";
 import coffee from "../public/coffee.png";
 import DDLogo from "../public/DDLogo.png";
 import { Fragment } from 'react'
@@ -218,7 +217,7 @@ export default function Home() {
 
 
               <div className="text-center shadow-lg p-10 rounded-3xl my-10  dark:bg-white flex-1">
-                <Image src={PaintB} width={100} height={100} alt="Paint Icon"/>
+                <Image src="paintBucket.png" width={100} height={100} alt="Paint Icon"/>
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Graphic Design
                 </h3>
