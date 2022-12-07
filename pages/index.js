@@ -106,12 +106,16 @@ export default function Home() {
             </Popover.Group>
 
             <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
+              {/* Dark mode 
+
               <a>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-xl text-white dark:text-white dark:hover:text-teal-400"
                 />
-              </a>
+              </a> 
+              
+              */}
               <a
                 href="#contact"
                 className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-teal-400 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-teal-600"
